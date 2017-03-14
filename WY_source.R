@@ -28,13 +28,12 @@ tryCatch({
   #path_in = TempProjPath
   #path_in = "C:/WorkSpace/ScenInvest_run/ScenInvest_Scot_250915_230516_070916/TEMP_BTWmodules/"
   
-  mv = args[4]
-  ###mv = "C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules//MergedWatersheds_wsid_W.dbf"
+mv = "C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules//MergedWatersheds_wsid_W.dbf"
   #mw = AllWatersheds_wsIDW_dbf
   #AllWatersheds_wsIDW_dbf  = "C:/WorkSpace/ScenInvest_run/ScenInvest_Scot_250915_230516_070916/TEMP_BTWmodules/MergedWatersheds_wsid_W.dbf"
   
   list_a = args[5] 
-  ###list_a = "C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s00.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s01.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s02.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s03.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s04.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s05.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s06.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s07.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s08.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s09.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s10.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s11.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s12.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s13.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s14.dbf"
+list_a = "C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s00.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s01.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s02.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s03.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s04.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s05.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s06.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s07.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s08.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s09.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s10.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s11.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s12.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s13.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s14.dbf"
   #lista_scen = ListTabAreaIDdbf4R
   #list_a = "C:/WorkSpace/ScenInvest_run/ScenInvest_Scot_250915_230516_070916/TEMP_BTWmodules/TabArea_s00.dbf" 
   
@@ -44,12 +43,12 @@ tryCatch({
   #list_b = "C:/WorkSpace/ScenInvest_run/ScenInvest_Scot_250915_230516_070916/TEMP_BTWmodules/w_outputs_s00.dbf"
   
   list_c = args[6] 
-  #list_c = "C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s00.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s01.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s02.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s03.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s04.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s05.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s06.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s07.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s08.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s09.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s10.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s11.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s12.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s13.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s14.dbf"
-  #lista_wres = ListwresultsIDdbf4R
-  #list_c = "C:/WorkSpace/ScenInvest_run/ScenInvest_Scot_250915_230516_070916/TEMP_BTWmodules/w_results_s00.dbf"
+  list_c = "C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s00.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s01.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s02.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s03.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s04.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s05.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s06.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s07.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s08.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s09.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s10.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s11.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s12.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s13.dbf, C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/w_results_s14.dbf"
+  lista_wres = ListwresultsIDdbf4R
+  list_c = "C:/WorkSpace/ScenInvest_run/ScenInvest_Scot_250915_230516_070916/TEMP_BTWmodules/w_results_s00.dbf"
   
   gam_wy = args[7]
-  ###gam_wy = "C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/GAM_wy.RData"
+  gam_wy = "C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/GAM_wy.RData"
   
   
   logerrorfilename = args[8]
