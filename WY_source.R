@@ -50,12 +50,7 @@ list_a = "C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/TabArea_s00.dbf,
   gam_wy = args[7]
   gam_wy = "C:/WorkSpace/ScenInvest_run/QuickTest/TEMP_BTWmodules/GAM_wy.RData"
   
-  
-  logerrorfilename = args[8]
-  ###logerrorfilename = "C:/WorkSpace/ScenInvest_run/QuickTest/log_err_CallGAM_wyield.txt"
-  ###logerrorfilename = "C:/WorkSpace/ScenInvest_run/QuickTest/log_err_CallGAM_nutrient.txt"
-  #logerrorfilename = Errorfilename
-  #logerrorfilename = "C:/WorkSpace/ScenInvest_run/ScenInvest_Scot_250915_230516_070916/Inputs/"
+ 
   
   Print arguments
   sink("C:/WorkSpace/ScenInvest_run/QuickTest/argts.txt")
